@@ -1,0 +1,240 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f5f5;
+    padding: 20px;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #2c3e50;
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+    border-bottom: 3px solid #3498db;
+}
+
+/* Form Pencarian */
+.form-cari {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 25px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.form-cari label {
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.input-q {
+    flex: 1;
+    padding: 10px 15px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border 0.3s;
+}
+
+.input-q:focus {
+    border-color: #3498db;
+    outline: none;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+.btn-primary {
+    background-color: #3498db;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #2980b9;
+}
+
+.btn-large {
+    background-color: #2ecc71;
+    color: white;
+    font-size: 16px;
+    padding: 12px 25px;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.btn-large:hover {
+    background-color: #27ae60;
+}
+
+/* Tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+table th {
+    background-color: #3498db;
+    color: white;
+    padding: 15px;
+    text-align: left;
+    font-weight: 600;
+}
+
+table td {
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+table tr:hover {
+    background-color: #f8f9fa;
+}
+
+table tr:nth-child(even) {
+    background-color: #f8f9fa;
+}
+
+/* Pagination */
+.pagination-container {
+    margin-top: 30px;
+    text-align: center;
+}
+
+ul.pagination {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+ul.pagination li {
+    display: inline;
+}
+
+ul.pagination li a {
+    color: #3498db;
+    float: left;
+    padding: 12px 20px;
+    text-decoration: none;
+    margin: 0 5px;
+    border: 2px solid #eee;
+    border-radius: 5px;
+    transition: all 0.3s;
+    font-weight: bold;
+}
+
+ul.pagination li a.active {
+    background-color: #3498db;
+    color: white;
+    border-color: #3498db;
+}
+
+ul.pagination li a:hover:not(.active):not(.disabled) {
+    background-color: #f0f0f0;
+}
+
+ul.pagination li a.disabled {
+    color: #ccc;
+    cursor: not-allowed;
+    border-color: #eee;
+}
+
+/* Tombol Previous & Next khusus */
+ul.pagination li:first-child a,
+ul.pagination li:last-child a {
+    background-color: #f8f9fa;
+    font-size: 18px;
+    padding: 10px 18px;
+}
+
+/* Pesan tidak ada data */
+.no-data {
+    text-align: center;
+    padding: 40px;
+    color: #7f8c8d;
+    font-size: 18px;
+    background: #f8f9fa;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+/* Tambahkan ke style.css */
+
+/* Style untuk gambar di tabel */
+table img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    background: #f5f5f5;
+}
+
+table td:first-child {
+    text-align: center;
+    width: 70px;
+}
+
+/* Style untuk gambar di tabel */
+table img {
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    background-color: #f5f5f5;
+    padding: 2px;
+}
+
+table td:first-child {
+    text-align: center;
+    vertical-align: middle;
+    width: 70px;
+}
+
+/* Placeholder untuk gambar kosong */
+.img-placeholder {
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(45deg, #f0f0f0 25%, #e0e0e0 25%, #e0e0e0 50%, 
+                #f0f0f0 50%, #f0f0f0 75%, #e0e0e0 75%, #e0e0e0);
+    background-size: 20px 20px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px dashed #ccc;
+}
+
+.img-placeholder span {
+    color: #999;
+    font-size: 10px;
+    text-align: center;
+    background: rgba(255,255,255,0.8);
+    padding: 2px 5px;
+    border-radius: 3px;
+}
