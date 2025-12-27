@@ -27,16 +27,16 @@ Kelas  : TI.2A.A2
 
 
 # PRAKTIKUM 13: Pagination
-Implementasi LIMIT dan OFFSET pada query
-Hitung total halaman: ceil($count / $per_page)
-Tombol Previous & Next yang berfungsi
-Navigasi nomor halaman
-Integrasi dengan pencarian
+- Implementasi LIMIT dan OFFSET pada query
+- Hitung total halaman: ceil($count / $per_page)
+- Tombol Previous & Next yang berfungsi
+- Navigasi nomor halaman
+- Integrasi dengan pencarian
 
 # PRAKTIKUM 14: Pencarian Data
-Form pencarian dengan method GET
-Query dengan klausa WHERE dan LIKE
-Filter data berdasarkan nama
-Parameter pencarian tetap di URL
+- Form pencarian dengan method GET
+- Query dengan klausa WHERE dan LIKE
+- Filter data berdasarkan nama
+- Parameter pencarian tetap di URL
 
 
